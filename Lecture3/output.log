@@ -1,0 +1,281 @@
+Interim list:  ['a', 'b', 'c', 'd']
+i: 0 start 0 end 4
+swap a and a
+Interim list:  ['a', 'b', 'c', 'd']
+i: 1 start 1 end 4
+swap b and b
+Interim list:  ['a', 'b', 'c', 'd']
+i: 2 start 2 end 4
+swap c and c
+Interim list:  ['a', 'b', 'c', 'd']
+i: 3 start 3 end 4
+swap d and d
+Interim list:  ['a', 'b', 'c', 'd']
+['a', 'b', 'c', 'd']
+backtrack d and d
+backtrack c and c
+i: 3 start 2 end 4
+swap c and d
+Interim list:  ['a', 'b', 'd', 'c']
+i: 3 start 3 end 4
+swap c and c
+Interim list:  ['a', 'b', 'd', 'c']
+['a', 'b', 'd', 'c']
+backtrack c and c
+backtrack d and c
+backtrack b and b
+i: 2 start 1 end 4
+swap b and c
+Interim list:  ['a', 'c', 'b', 'd']
+i: 2 start 2 end 4
+swap b and b
+Interim list:  ['a', 'c', 'b', 'd']
+i: 3 start 3 end 4
+swap d and d
+Interim list:  ['a', 'c', 'b', 'd']
+['a', 'c', 'b', 'd']
+backtrack d and d
+backtrack b and b
+i: 3 start 2 end 4
+swap b and d
+Interim list:  ['a', 'c', 'd', 'b']
+i: 3 start 3 end 4
+swap b and b
+Interim list:  ['a', 'c', 'd', 'b']
+['a', 'c', 'd', 'b']
+backtrack b and b
+backtrack d and b
+backtrack c and b
+i: 3 start 1 end 4
+swap b and d
+Interim list:  ['a', 'd', 'c', 'b']
+i: 2 start 2 end 4
+swap c and c
+Interim list:  ['a', 'd', 'c', 'b']
+i: 3 start 3 end 4
+swap b and b
+Interim list:  ['a', 'd', 'c', 'b']
+['a', 'd', 'c', 'b']
+backtrack b and b
+backtrack c and c
+i: 3 start 2 end 4
+swap c and b
+Interim list:  ['a', 'd', 'b', 'c']
+i: 3 start 3 end 4
+swap c and c
+Interim list:  ['a', 'd', 'b', 'c']
+['a', 'd', 'b', 'c']
+backtrack c and c
+backtrack b and c
+backtrack d and b
+backtrack a and a
+i: 1 start 0 end 4
+swap a and b
+Interim list:  ['b', 'a', 'c', 'd']
+i: 1 start 1 end 4
+swap a and a
+Interim list:  ['b', 'a', 'c', 'd']
+i: 2 start 2 end 4
+swap c and c
+Interim list:  ['b', 'a', 'c', 'd']
+i: 3 start 3 end 4
+swap d and d
+Interim list:  ['b', 'a', 'c', 'd']
+['b', 'a', 'c', 'd']
+backtrack d and d
+backtrack c and c
+i: 3 start 2 end 4
+swap c and d
+Interim list:  ['b', 'a', 'd', 'c']
+i: 3 start 3 end 4
+swap c and c
+Interim list:  ['b', 'a', 'd', 'c']
+['b', 'a', 'd', 'c']
+backtrack c and c
+backtrack d and c
+backtrack a and a
+i: 2 start 1 end 4
+swap a and c
+Interim list:  ['b', 'c', 'a', 'd']
+i: 2 start 2 end 4
+swap a and a
+Interim list:  ['b', 'c', 'a', 'd']
+i: 3 start 3 end 4
+swap d and d
+Interim list:  ['b', 'c', 'a', 'd']
+['b', 'c', 'a', 'd']
+backtrack d and d
+backtrack a and a
+i: 3 start 2 end 4
+swap a and d
+Interim list:  ['b', 'c', 'd', 'a']
+i: 3 start 3 end 4
+swap a and a
+Interim list:  ['b', 'c', 'd', 'a']
+['b', 'c', 'd', 'a']
+backtrack a and a
+backtrack d and a
+backtrack c and a
+i: 3 start 1 end 4
+swap a and d
+Interim list:  ['b', 'd', 'c', 'a']
+i: 2 start 2 end 4
+swap c and c
+Interim list:  ['b', 'd', 'c', 'a']
+i: 3 start 3 end 4
+swap a and a
+Interim list:  ['b', 'd', 'c', 'a']
+['b', 'd', 'c', 'a']
+backtrack a and a
+backtrack c and c
+i: 3 start 2 end 4
+swap c and a
+Interim list:  ['b', 'd', 'a', 'c']
+i: 3 start 3 end 4
+swap c and c
+Interim list:  ['b', 'd', 'a', 'c']
+['b', 'd', 'a', 'c']
+backtrack c and c
+backtrack a and c
+backtrack d and a
+backtrack b and a
+i: 2 start 0 end 4
+swap a and c
+Interim list:  ['c', 'b', 'a', 'd']
+i: 1 start 1 end 4
+swap b and b
+Interim list:  ['c', 'b', 'a', 'd']
+i: 2 start 2 end 4
+swap a and a
+Interim list:  ['c', 'b', 'a', 'd']
+i: 3 start 3 end 4
+swap d and d
+Interim list:  ['c', 'b', 'a', 'd']
+['c', 'b', 'a', 'd']
+backtrack d and d
+backtrack a and a
+i: 3 start 2 end 4
+swap a and d
+Interim list:  ['c', 'b', 'd', 'a']
+i: 3 start 3 end 4
+swap a and a
+Interim list:  ['c', 'b', 'd', 'a']
+['c', 'b', 'd', 'a']
+backtrack a and a
+backtrack d and a
+backtrack b and b
+i: 2 start 1 end 4
+swap b and a
+Interim list:  ['c', 'a', 'b', 'd']
+i: 2 start 2 end 4
+swap b and b
+Interim list:  ['c', 'a', 'b', 'd']
+i: 3 start 3 end 4
+swap d and d
+Interim list:  ['c', 'a', 'b', 'd']
+['c', 'a', 'b', 'd']
+backtrack d and d
+backtrack b and b
+i: 3 start 2 end 4
+swap b and d
+Interim list:  ['c', 'a', 'd', 'b']
+i: 3 start 3 end 4
+swap b and b
+Interim list:  ['c', 'a', 'd', 'b']
+['c', 'a', 'd', 'b']
+backtrack b and b
+backtrack d and b
+backtrack a and b
+i: 3 start 1 end 4
+swap b and d
+Interim list:  ['c', 'd', 'a', 'b']
+i: 2 start 2 end 4
+swap a and a
+Interim list:  ['c', 'd', 'a', 'b']
+i: 3 start 3 end 4
+swap b and b
+Interim list:  ['c', 'd', 'a', 'b']
+['c', 'd', 'a', 'b']
+backtrack b and b
+backtrack a and a
+i: 3 start 2 end 4
+swap a and b
+Interim list:  ['c', 'd', 'b', 'a']
+i: 3 start 3 end 4
+swap a and a
+Interim list:  ['c', 'd', 'b', 'a']
+['c', 'd', 'b', 'a']
+backtrack a and a
+backtrack b and a
+backtrack d and b
+backtrack c and a
+i: 3 start 0 end 4
+swap a and d
+Interim list:  ['d', 'b', 'c', 'a']
+i: 1 start 1 end 4
+swap b and b
+Interim list:  ['d', 'b', 'c', 'a']
+i: 2 start 2 end 4
+swap c and c
+Interim list:  ['d', 'b', 'c', 'a']
+i: 3 start 3 end 4
+swap a and a
+Interim list:  ['d', 'b', 'c', 'a']
+['d', 'b', 'c', 'a']
+backtrack a and a
+backtrack c and c
+i: 3 start 2 end 4
+swap c and a
+Interim list:  ['d', 'b', 'a', 'c']
+i: 3 start 3 end 4
+swap c and c
+Interim list:  ['d', 'b', 'a', 'c']
+['d', 'b', 'a', 'c']
+backtrack c and c
+backtrack a and c
+backtrack b and b
+i: 2 start 1 end 4
+swap b and c
+Interim list:  ['d', 'c', 'b', 'a']
+i: 2 start 2 end 4
+swap b and b
+Interim list:  ['d', 'c', 'b', 'a']
+i: 3 start 3 end 4
+swap a and a
+Interim list:  ['d', 'c', 'b', 'a']
+['d', 'c', 'b', 'a']
+backtrack a and a
+backtrack b and b
+i: 3 start 2 end 4
+swap b and a
+Interim list:  ['d', 'c', 'a', 'b']
+i: 3 start 3 end 4
+swap b and b
+Interim list:  ['d', 'c', 'a', 'b']
+['d', 'c', 'a', 'b']
+backtrack b and b
+backtrack a and b
+backtrack c and b
+i: 3 start 1 end 4
+swap b and a
+Interim list:  ['d', 'a', 'c', 'b']
+i: 2 start 2 end 4
+swap c and c
+Interim list:  ['d', 'a', 'c', 'b']
+i: 3 start 3 end 4
+swap b and b
+Interim list:  ['d', 'a', 'c', 'b']
+['d', 'a', 'c', 'b']
+backtrack b and b
+backtrack c and c
+i: 3 start 2 end 4
+swap c and b
+Interim list:  ['d', 'a', 'b', 'c']
+i: 3 start 3 end 4
+swap c and c
+Interim list:  ['d', 'a', 'b', 'c']
+['d', 'a', 'b', 'c']
+backtrack c and c
+backtrack b and c
+backtrack a and b
+backtrack d and a
